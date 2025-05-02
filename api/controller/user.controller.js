@@ -85,12 +85,14 @@ const login = async (req, res) => {
 
 const getAllUsers = async (req, res) => {
     try {
-        const users = await User.find();
+        console.log("Fetching all users...");
+        const users = await User.find({}, { password: 0 }); // Exclui o campo 'password' dos resultados
+        console.log("Users fetched successfully:", users);
         return res.status(200).json(users);
     } catch (error) {
         console.error("Error fetching users:", error.message);
-        return res.status(500).json({ message: `Error fetching users: ${error.message}` });
+        return res.status(500).json({ message: `An error occurred while fetching users: ${error.message}` });
     }
 };
 
-export default { register , login, getAllUsers};
+export default { register , login, getAllUsers };
