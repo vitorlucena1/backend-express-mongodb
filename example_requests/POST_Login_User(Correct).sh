@@ -3,5 +3,5 @@ curl --request POST \
   --header 'Content-Type: application/json' \
   --data '{
     "username": "newuser",
-    "password": "securepassword"
+    "password": "securepassword123"
     }'

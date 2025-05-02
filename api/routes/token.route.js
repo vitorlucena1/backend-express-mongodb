@@ -4,6 +4,6 @@ import verifyToken from '../middleware/jwt.token.middleware.js';
 
 const router = express.Router();
 
-router.get('/', verifyToken, Controller.securedEndpoint);
+router.get('/protected', verifyToken, Controller.securedEndpoint);
 
 export default router;

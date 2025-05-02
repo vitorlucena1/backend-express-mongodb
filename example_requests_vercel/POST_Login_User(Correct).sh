@@ -1,7 +1,7 @@
 curl --request POST \
-  --url 'http://localhost:3000/users/login' \
+  --url 'https://backend-express-mongodb-two.vercel.app/users/login' \
   --header 'Content-Type: application/json' \
   --data '{
     "username": "newuser",
-    "password": "securepassword"
+    "password": "securepassword123"
     }'
