@@ -143,4 +143,4 @@ https://<seu-projeto>.vercel.app
 
 ## ✨ Autor
 
-Desenvolvido por [Seu Nome](https://github.com/seu-usuario).
+Desenvolvido por [Vitor Lucena](https://github.com/vitorlucena1).
