@@ -26,6 +26,14 @@ backend-express-mongodb/
 
 ---
 
+## 📹 Demonstração
+
+Aqui está um vídeo explicativo sobre o projeto:
+
+[Explicação do Projeto](./Explicação.mp4)
+
+---
+
 ## 🚀 Funcionalidades
 
 ### Rotas Públicas
