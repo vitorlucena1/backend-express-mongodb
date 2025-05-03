@@ -128,7 +128,7 @@ O projeto está configurado para ser implantado no **Vercel**. Certifique-se de 
 
 ### URL de Produção
 ```
-https://<seu-projeto>.vercel.app
+https://backend-express-mongodb-two.vercel.app
 ```
 
 ---
