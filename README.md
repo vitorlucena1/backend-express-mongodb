@@ -128,7 +128,7 @@ O projeto está configurado para ser implantado no **Vercel**. Certifique-se de 
 
 ### URL de Produção
 ```
-https://backend-express-mongodb-two.vercel.app
+https://<seu-projeto>.vercel.app
 ```
 
 ---
@@ -141,12 +141,6 @@ https://backend-express-mongodb-two.vercel.app
 
 ---
 
-## 📄 Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
-
----
-
 ## ✨ Autor
 
-Desenvolvido por [Vitor Lucena](https://github.com/vitorlucena1).
+Desenvolvido por [Seu Nome](https://github.com/seu-usuario).
